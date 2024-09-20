@@ -65,13 +65,9 @@ public class RitualAltarBlockEntity extends AbstractContainerBlockEntity<RitualA
         }
         Constants.LOGGER.info("Placed Items: {}", placedItems);
         Constants.LOGGER.info("Ritual Input Items: {}", rituals.getInputItems());
-
+        System.out.println(rituals.matchItems(placedItems));
         return rituals.matchItems(placedItems);
     }
-
-
-
-
 
     public boolean getIsMatched() {
         return this.isMatched;

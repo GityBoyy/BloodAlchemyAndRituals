@@ -19,6 +19,7 @@ public class RitualAltarRituals
     public ItemStack getResult() {
         return result;
     }
+
     public boolean matchItems(NonNullList<ItemStack> placedItems) {
         if (placedItems.size() != inputItems.size()) {
             return false;
@@ -28,7 +29,7 @@ public class RitualAltarRituals
             ItemStack requiredItem = inputItems.get(i);
             ItemStack placedItem = placedItems.get(i);
 
-            if (!ItemStack.matches(requiredItem,placedItem) || placedItem.isEmpty()) {
+            if (!ItemStack.isSameItem(requiredItem,placedItem) || placedItem.isEmpty()) {
                 return false;
             }
         }
