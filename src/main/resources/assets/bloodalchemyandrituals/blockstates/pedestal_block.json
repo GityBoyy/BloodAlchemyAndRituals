@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "bloodalchemyandrituals:block/pedestal_block",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "bloodalchemyandrituals:block/pedestal_block"
+    },
+    "facing=south": {
+      "model": "bloodalchemyandrituals:block/pedestal_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "bloodalchemyandrituals:block/pedestal_block",
+      "y": 270
+    }
+  }
+}

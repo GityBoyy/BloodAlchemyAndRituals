@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "bloodalchemyandrituals:item/blood_infused_sword"
+  }
+}

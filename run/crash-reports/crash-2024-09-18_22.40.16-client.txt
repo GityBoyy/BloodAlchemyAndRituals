@@ -1,0 +1,211 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 2024-09-18 22:40:16
+Description: Unexpected error
+
+java.lang.UnsupportedOperationException: null
+	at java.base/java.util.AbstractList.add(AbstractList.java:155) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.core.NonNullList.add(NonNullList.java:81) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading}
+	at TRANSFORMER/bloodalchemyandrituals@1.0.0/org.chubby.github.bloodalchemyandrituals.common.rituals.RitualAltarRituals.addRituals(RitualAltarRituals.java:40) ~[%23185!/:?] {re:classloading}
+	at TRANSFORMER/bloodalchemyandrituals@1.0.0/org.chubby.github.bloodalchemyandrituals.common.blocks.entity.RitualAltarBlockEntity.addRitualsToConst(RitualAltarBlockEntity.java:88) ~[%23185!/:?] {re:classloading}
+	at TRANSFORMER/bloodalchemyandrituals@1.0.0/org.chubby.github.bloodalchemyandrituals.common.blocks.entity.RitualAltarBlockEntity.<init>(RitualAltarBlockEntity.java:34) ~[%23185!/:?] {re:classloading}
+	at TRANSFORMER/bloodalchemyandrituals@1.0.0/org.chubby.github.bloodalchemyandrituals.common.blocks.custom.RitualAltarBlock.createBlockEntity(RitualAltarBlock.java:54) ~[%23185!/:?] {re:classloading}
+	at TRANSFORMER/bloodalchemyandrituals@1.0.0/org.chubby.github.bloodalchemyandrituals.common.blocks.custom.AbstractContainerBlock.newBlockEntity(AbstractContainerBlock.java:85) ~[%23185!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.level.chunk.LevelChunk.createBlockEntity(LevelChunk.java:314) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.level.chunk.LevelChunk.getBlockEntity(LevelChunk.java:342) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.level.Level.getBlockEntity(Level.java:805) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/bloodalchemyandrituals@1.0.0/org.chubby.github.bloodalchemyandrituals.events.CommonEvents.craftItemInAltar(CommonEvents.java:93) ~[%23185!/:?] {re:classloading}
+	at TRANSFORMER/bloodalchemyandrituals@1.0.0/org.chubby.github.bloodalchemyandrituals.events.CommonEvents.onItemUse(CommonEvents.java:50) ~[%23185!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.SubscribeEventListener.invoke(SubscribeEventListener.java:49) ~[bus-8.0.1.jar%23141!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:350) ~[bus-8.0.1.jar%23141!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:315) ~[bus-8.0.1.jar%23141!/:?] {}
+	at TRANSFORMER/neoforge@21.0.167/net.neoforged.neoforge.common.CommonHooks.onRightClickBlock(CommonHooks.java:809) ~[neoforge-21.0.167-minecraft-merged.jar%23184!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.multiplayer.MultiPlayerGameMode.performUseItemOn(MultiPlayerGameMode.java:317) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.multiplayer.MultiPlayerGameMode.lambda$useItemOn$4(MultiPlayerGameMode.java:307) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.multiplayer.MultiPlayerGameMode.startPrediction(MultiPlayerGameMode.java:273) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.multiplayer.MultiPlayerGameMode.useItemOn(MultiPlayerGameMode.java:306) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.startUseItem(Minecraft.java:1756) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.handleKeybinds(Minecraft.java:2035) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.tick(Minecraft.java:1849) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.runTick(Minecraft.java:1167) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.run(Minecraft.java:813) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.main.Main.main(Main.java:230) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.23/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.23.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.23/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.23.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.23/net.neoforged.fml.loading.targets.NeoForgeClientUserdevLaunchHandler.runService(NeoForgeClientUserdevLaunchHandler.java:23) ~[loader-4.0.23.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.23/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.23.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at DevLaunch@1.0.1/net.neoforged.devlaunch.Main.main(Main.java:55) [DevLaunch-1.0.1.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at java.base/java.util.AbstractList.add(AbstractList.java:155) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.core.NonNullList.add(NonNullList.java:81) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading}
+	at TRANSFORMER/bloodalchemyandrituals@1.0.0/org.chubby.github.bloodalchemyandrituals.common.rituals.RitualAltarRituals.addRituals(RitualAltarRituals.java:40) ~[%23185!/:?] {re:classloading}
+	at TRANSFORMER/bloodalchemyandrituals@1.0.0/org.chubby.github.bloodalchemyandrituals.common.blocks.entity.RitualAltarBlockEntity.addRitualsToConst(RitualAltarBlockEntity.java:88) ~[%23185!/:?] {re:classloading}
+	at TRANSFORMER/bloodalchemyandrituals@1.0.0/org.chubby.github.bloodalchemyandrituals.common.blocks.entity.RitualAltarBlockEntity.<init>(RitualAltarBlockEntity.java:34) ~[%23185!/:?] {re:classloading}
+	at TRANSFORMER/bloodalchemyandrituals@1.0.0/org.chubby.github.bloodalchemyandrituals.common.blocks.custom.RitualAltarBlock.createBlockEntity(RitualAltarBlock.java:54) ~[%23185!/:?] {re:classloading}
+	at TRANSFORMER/bloodalchemyandrituals@1.0.0/org.chubby.github.bloodalchemyandrituals.common.blocks.custom.AbstractContainerBlock.newBlockEntity(AbstractContainerBlock.java:85) ~[%23185!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.level.chunk.LevelChunk.createBlockEntity(LevelChunk.java:314) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.level.chunk.LevelChunk.getBlockEntity(LevelChunk.java:342) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.level.Level.getBlockEntity(Level.java:805) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/bloodalchemyandrituals@1.0.0/org.chubby.github.bloodalchemyandrituals.events.CommonEvents.craftItemInAltar(CommonEvents.java:93) ~[%23185!/:?] {re:classloading}
+	at TRANSFORMER/bloodalchemyandrituals@1.0.0/org.chubby.github.bloodalchemyandrituals.events.CommonEvents.onItemUse(CommonEvents.java:50) ~[%23185!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.SubscribeEventListener.invoke(SubscribeEventListener.java:49) ~[bus-8.0.1.jar%23141!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:350) ~[bus-8.0.1.jar%23141!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:315) ~[bus-8.0.1.jar%23141!/:?] {}
+	at TRANSFORMER/neoforge@21.0.167/net.neoforged.neoforge.common.CommonHooks.onRightClickBlock(CommonHooks.java:809) ~[neoforge-21.0.167-minecraft-merged.jar%23184!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.multiplayer.MultiPlayerGameMode.performUseItemOn(MultiPlayerGameMode.java:317) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.multiplayer.MultiPlayerGameMode.lambda$useItemOn$4(MultiPlayerGameMode.java:307) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.multiplayer.MultiPlayerGameMode.startPrediction(MultiPlayerGameMode.java:273) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.multiplayer.MultiPlayerGameMode.useItemOn(MultiPlayerGameMode.java:306) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.startUseItem(Minecraft.java:1756) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.handleKeybinds(Minecraft.java:2035) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+-- Uptime --
+Details:
+	JVM uptime: 81.791s
+	Wall uptime: 47.095s
+	High-res time: 76.540s
+	Client ticks: 531 ticks / 26.550s
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.fillReport(Minecraft.java:2407) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.emergencySaveAndCrash(Minecraft.java:874) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.run(Minecraft.java:834) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.main.Main.main(Main.java:230) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.23/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.23.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.23/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.23.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.23/net.neoforged.fml.loading.targets.NeoForgeClientUserdevLaunchHandler.runService(NeoForgeClientUserdevLaunchHandler.java:23) ~[loader-4.0.23.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.23/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.23.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at DevLaunch@1.0.1/net.neoforged.devlaunch.Main.main(Main.java:55) [DevLaunch-1.0.1.jar:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 1 total; [LocalPlayer['Dev'/125, l='ClientLevel', x=0.81, y=64.00, z=-1.63]]
+	Chunk stats: 529, 75
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (0,64,0), Section: (at 0,0,0 in 0,4,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 28717 game time, 15642 day time
+	Server brand: neoforge
+	Server type: Integrated singleplayer server
+	Tracked entity count: 157
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: vanilla, mod_resources, mod/bloodalchemyandrituals, mod/neoforge
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21
+	Minecraft Version ID: 1.21
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.3, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 121291632 bytes (115 MiB) / 656408576 bytes (626 MiB) up to 2065694720 bytes (1970 MiB)
+	CPUs: 6
+	Processor Vendor: GenuineIntel
+	Processor Name: 13th Gen Intel(R) Core(TM) i3-1305U
+	Identifier: Intel64 Family 6 Model 186 Stepping 3
+	Microarchitecture: Raptor Lake
+	Frequency (GHz): 2.50
+	Number of physical packages: 1
+	Number of physical CPUs: 5
+	Number of logical CPUs: 6
+	Graphics card #0 name: Intel(R) UHD Graphics
+	Graphics card #0 vendor: Intel Corporation
+	Graphics card #0 VRAM (MiB): 128.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 31.0.101.5186
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Virtual memory max (MiB): 18588.92
+	Virtual memory used (MiB): 14953.32
+	Swap memory total (MiB): 10712.21
+	Swap memory used (MiB): 5540.06
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 4309.85, total: 211140.00
+	Space in storage for workdir (MiB): available: 83282.33, total: 255999.00
+	JVM Flags: 0 total; 
+	Launched Version: 21.0.167
+	Backend library: LWJGL version 3.3.3+5
+	Backend API: Intel(R) UHD Graphics GL version 4.6.0 - Build 31.0.101.5186, Intel
+	Window size: 854x480
+	GFLW Platform: win32
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Is Modded: Definitely; Client brand changed to 'neoforge'; Server brand changed to 'neoforge'
+	Universe: 400921fb54442d18
+	Type: Integrated Server (map_client.txt)
+	Graphics mode: fast
+	Render Distance: 8/8 chunks
+	Resource Packs: vanilla, mod_resources, mod/bloodalchemyandrituals, mod/neoforge
+	Current Language: en_us
+	Locale: en_IN
+	System encoding: Cp1252
+	File encoding: windows-1252
+	CPU: 6x 13th Gen Intel(R) Core(TM) i3-1305U
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/125, l='ServerLevel[A fairly good test world. ;-;]', x=0.81, y=64.00, z=-1.63]]
+	Active Data Packs: vanilla, mod_data, mod/bloodalchemyandrituals, mod/neoforge
+	Available Data Packs: bundle, trade_rebalance, vanilla, mod/bloodalchemyandrituals, mod/neoforge, mod_data
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: -4771622982971064871
+	ModLauncher: 11.0.4+main.d2e20e43
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher services: 
+		sponge-mixin-0.14.0+mixin.0.8.6.jar mixin PLUGINSERVICE 
+		loader-4.0.23.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.23.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.23.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		neoforge-21.0.167-minecraft-merged.jar            |Minecraft                     |minecraft                     |1.21                |Manifest: NOSIGNATURE
+		main                                              |BloodAlchemyAndRituals        |bloodalchemyandrituals        |1.0.0               |Manifest: NOSIGNATURE
+		neoforge-21.0.167-minecraft-merged.jar            |NeoForge                      |neoforge                      |21.0.167            |Manifest: NOSIGNATURE
+	Crash Report UUID: bcdc280f-cc0c-420d-837f-04a8ddc0413a
+	FML: 4.0.23
+	NeoForge: 21.0.167

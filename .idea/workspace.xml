@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1494a895-b152-44d8-b79e-4b89ba447017" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BloodAlchemyAndRituals" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BloodAlchemyAndRituals" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2m1eiJt7ZPyPxEZ73TuNmd2Lgp5" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Data.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BloodAlchemyAndRituals [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BloodAlchemyAndRituals [components].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BloodAlchemyAndRituals [downloadAssets].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BloodAlchemyAndRituals [processResources].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BloodAlchemyAndRituals [runClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BloodAlchemyAndRituals [runData].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BloodAlchemyAndRituals [runGameTestServer].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BloodAlchemyAndRituals [wrapper].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build BloodAlchemyAndRituals.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programming/Mods-2/BloodAlchemyAndRituals/src/main/resources/assets/bloodalchemyandrituals/textures/models/armor&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.chubby.github.bloodalchemyandrituals.datagen.custom" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming\Mods-2\BloodAlchemyAndRituals\src\main\resources\assets\bloodalchemyandrituals\textures\models\armor" />
+      <recent name="D:\Programming\Mods-2\BloodAlchemyAndRituals\src\main\resources\assets\bloodalchemyandrituals\textures\block" />
+      <recent name="D:\Programming\Mods-2\BloodAlchemyAndRituals\src\main\resources\assets\bloodalchemyandrituals\models\block" />
+      <recent name="D:\Programming\Mods-2\BloodAlchemyAndRituals\src\main\resources\assets\bloodalchemyandrituals\textures\item" />
+      <recent name="D:\Programming\Mods-2\BloodAlchemyAndRituals\src\main\java\org\chubby\github\bloodalchemyandrituals\common\fluid" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\Mods-2\BloodAlchemyAndRituals\src\generated\resources\data\bloodalchemyandrituals" />
+      <recent name="D:\Programming\Mods-2\BloodAlchemyAndRituals\src\main\resources\assets\bloodalchemyandrituals\textures\block" />
+      <recent name="D:\Programming\Mods-2\BloodAlchemyAndRituals\src\main\resources\assets\bloodalchemyandrituals\models\block" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.chubby.github.bloodalchemyandrituals.client.renderer.blockEntities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.BloodAlchemyAndRituals [runClient]">
+    <configuration name="Client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="BloodAlchemyAndRituals.main" />
+      <option name="PROGRAM_PARAMETERS" value="@D:\\Programming\\Mods-2\\BloodAlchemyAndRituals\\build\\moddev\\clientRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@D:\\Programming\\Mods-2\\BloodAlchemyAndRituals\\build\\moddev\\clientRunVmArgs.txt -Dfml.modFolders=bloodalchemyandrituals%%D:\\Programming\\Mods-2\\BloodAlchemyAndRituals\\build\\classes\\java\\main;bloodalchemyandrituals%%D:\\Programming\\Mods-2\\BloodAlchemyAndRituals\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Data" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="BloodAlchemyAndRituals.main" />
+      <option name="PROGRAM_PARAMETERS" value="@D:\\Programming\\Mods-2\\BloodAlchemyAndRituals\\build\\moddev\\dataRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@D:\\Programming\\Mods-2\\BloodAlchemyAndRituals\\build\\moddev\\dataRunVmArgs.txt -Dfml.modFolders=bloodalchemyandrituals%%D:\\Programming\\Mods-2\\BloodAlchemyAndRituals\\build\\classes\\java\\main;bloodalchemyandrituals%%D:\\Programming\\Mods-2\\BloodAlchemyAndRituals\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTestServer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="BloodAlchemyAndRituals.main" />
+      <option name="PROGRAM_PARAMETERS" value="@D:\\Programming\\Mods-2\\BloodAlchemyAndRituals\\build\\moddev\\gameTestServerRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@D:\\Programming\\Mods-2\\BloodAlchemyAndRituals\\build\\moddev\\gameTestServerRunVmArgs.txt -Dfml.modFolders=bloodalchemyandrituals%%D:\\Programming\\Mods-2\\BloodAlchemyAndRituals\\build\\classes\\java\\main;bloodalchemyandrituals%%D:\\Programming\\Mods-2\\BloodAlchemyAndRituals\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="BloodAlchemyAndRituals.main" />
+      <option name="PROGRAM_PARAMETERS" value="@D:\\Programming\\Mods-2\\BloodAlchemyAndRituals\\build\\moddev\\serverRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@D:\\Programming\\Mods-2\\BloodAlchemyAndRituals\\build\\moddev\\serverRunVmArgs.txt -Dfml.modFolders=bloodalchemyandrituals%%D:\\Programming\\Mods-2\\BloodAlchemyAndRituals\\build\\classes\\java\\main;bloodalchemyandrituals%%D:\\Programming\\Mods-2\\BloodAlchemyAndRituals\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BloodAlchemyAndRituals [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="BloodAlchemyAndRituals [components]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="components" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="BloodAlchemyAndRituals [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="BloodAlchemyAndRituals [runData]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runData" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="BloodAlchemyAndRituals [runGameTestServer]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runGameTestServer" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="mcdev-temp-root" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.BloodAlchemyAndRituals [runClient]" />
+        <item itemvalue="Gradle.BloodAlchemyAndRituals [runData]" />
+        <item itemvalue="Gradle.BloodAlchemyAndRituals [runGameTestServer]" />
+        <item itemvalue="Gradle.BloodAlchemyAndRituals [clean]" />
+        <item itemvalue="Gradle.BloodAlchemyAndRituals [components]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1494a895-b152-44d8-b79e-4b89ba447017" name="Changes" comment="" />
+      <created>1726248639352</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726248639352</updated>
+    </task>
+    <servers />
+  </component>
+</project>

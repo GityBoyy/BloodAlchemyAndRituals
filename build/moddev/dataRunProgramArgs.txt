@@ -1,0 +1,29 @@
+# Main Class
+cpw.mods.bootstraplauncher.BootstrapLauncher
+
+# NeoForge Run-Type Program Arguments
+--launchTarget
+forgedatauserdev
+--assetIndex
+17
+--assetsDir
+C:\\Users\\sreek\\.gradle\\caches\\neoformruntime\\assets
+--gameDir
+.
+--fml.neoForgeVersion
+21.0.167
+--fml.fmlVersion
+4.0.23
+--fml.mcVersion
+1.21
+--fml.neoFormVersion
+20240613.152323
+
+# User Supplied Program Arguments
+--mod
+bloodalchemyandrituals
+--all
+--output
+D:\\Programming\\Mods-2\\BloodAlchemyAndRituals\\src\\generated\\resources
+--existing
+D:\\Programming\\Mods-2\\BloodAlchemyAndRituals\\src\\main\\resources

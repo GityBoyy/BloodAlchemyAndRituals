@@ -1,0 +1,11 @@
+{
+  "type": "bloodalchemyandrituals:blood_ritual_altar_recipe_serializer",
+  "craftTime": 20,
+  "ingredient": {
+    "item": "minecraft:iron_axe"
+  },
+  "result": {
+    "count": 1,
+    "id": "bloodalchemyandrituals:blood_infused_axe"
+  }
+}

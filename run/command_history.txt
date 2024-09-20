@@ -1,0 +1,50 @@
+/recipe give Dev bloodalchemyandrituals:golden_apple
+/data get block -2 -60 255
+/data get block -4 -60 258
+/data get block -6 -60 258
+/data get block -15 -60 249
+/data get block -13 -60 241
+/data get block -16 -60 241
+/tick rate 1000
+/data get block -16 -60 241
+/list uuids
+/bossbar add 12
+/summon minecraft:area_effect_cloud
+/summon minecraft:block_display
+/data get block -16 -60 241
+/data get block -20 -60 235
+/data get block -8 -60 282
+/data get block -11 -60 234
+/data get block -10
+/data get block -10 -60 232
+/data get block -12 -60 232
+/time set day
+/spawn_armor_trims
+/kill @E
+/kill @e
+/tp @p 1000000 80 1000000
+/clear Dev *
+/time set day
+/data get block 1000444 -60 1000028
+/data get block 1000444 -60 1000030
+/time set day
+/data get block 23 67 -60
+/data get block 3 64 -3
+/data get block -3 64 8
+/time set day
+/data get block -3 64 8
+/data get block 3 64 -3
+/give @p bloodalchemyandrituals:blood_bottle
+/data get entity 0b038e0d-8077-4c2a-a0f8-6263c7294c0d
+/give @p minecraft:saddle
+/summon minecraft:horse ~ ~ ~ {minecraft:generic_movement_speed, base:100}
+/give @p minecraft:saddle
+/data get entity 3b563756-3b30-484c-beb0-720a91daf975
+/summon minecraft:horse ~ ~ ~ {minecraft:generic_movement_speed, base:100d}
+/data get entity 37574ef1-b03b-4991-9876-09e1a1ac734b
+/data get entity 7d0e30a0-a8d4-49f5-bfec-eeb0efc3fe83
+/summon minecraft:horse ~ ~ ~ {minecraft:generic_movement_speed, base:24d}
+/data get entity 5a1b1243-3896-4887-b737-38896dda8ecc
+/time set day
+/locate structure minecraft:village_plains
+/tp @s 224 ~ -448

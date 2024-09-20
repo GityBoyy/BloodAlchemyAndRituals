@@ -1,0 +1,145 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 2024-09-16 17:27:00
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at TRANSFORMER/neoforge@21.0.167/net.neoforged.neoforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:57) ~[neoforge-21.0.167-minecraft-merged.jar%23184!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.0.167/net.neoforged.neoforge.client.loading.ClientModLoader.completeModLoading(ClientModLoader.java:123) ~[neoforge-21.0.167-minecraft-merged.jar%23184!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.buildInitialScreens(Minecraft.java:679) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.onGameLoadFinished(Minecraft.java:652) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.onResourceLoadFinished(Minecraft.java:647) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.lambda$new$7(Minecraft.java:635) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.Util.ifElse(Util.java:516) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.lambda$new$8(Minecraft.java:629) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/neoforge@21.0.167/net.neoforged.neoforge.client.loading.NeoForgeLoadingOverlay.render(NeoForgeLoadingOverlay.java:145) ~[neoforge-21.0.167-minecraft-merged.jar%23184!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:1087) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.runTick(Minecraft.java:1201) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.run(Minecraft.java:813) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.main.Main.main(Main.java:230) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.23/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.23.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.23/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.23.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.23/net.neoforged.fml.loading.targets.NeoForgeClientUserdevLaunchHandler.runService(NeoForgeClientUserdevLaunchHandler.java:23) ~[loader-4.0.23.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.23/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.23.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at DevLaunch@1.0.1/net.neoforged.devlaunch.Main.main(Main.java:55) [DevLaunch-1.0.1.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.base.Preconditions.checkNotNull(Preconditions.java:903) ~[guava-32.1.2-jre.jar%23106!/:?] {}
+-- NO MOD INFO AVAILABLE --
+Details:
+	Mod File: NO FILE INFO
+	Failure message: fml.modloadingissue.uncaughterror
+	Failure message arg 1: Registry initialization
+	Mod Version: NO MOD INFO AVAILABLE
+	Mod Issue URL: NOT PROVIDED
+	Exception message: java.lang.NullPointerException
+Stacktrace:
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.base.Preconditions.checkNotNull(Preconditions.java:903) ~[guava-32.1.2-jre.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache.get(LocalCache.java:4011) ~[guava-32.1.2-jre.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4035) ~[guava-32.1.2-jre.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5013) ~[guava-32.1.2-jre.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5020) ~[guava-32.1.2-jre.jar%23106!/:?] {}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.level.block.Block.isShapeFullBlock(Block.java:271) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.isSolidRender(BlockBehaviour.java:707) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase$Cache.<init>(BlockBehaviour.java:983) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.initCache(BlockBehaviour.java:557) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:classloading}
+	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-32.1.2-jre.jar%23106!/:?] {}
+	at TRANSFORMER/neoforge@21.0.167/net.neoforged.neoforge.registries.NeoForgeRegistryCallbacks$BlockCallbacks.onBake(NeoForgeRegistryCallbacks.java:55) ~[neoforge-21.0.167-minecraft-merged.jar%23184!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.core.MappedRegistry.lambda$freeze$7(MappedRegistry.java:376) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.core.MappedRegistry.freeze(MappedRegistry.java:376) ~[neoforge-21.0.167-minecraft-merged.jar%23183!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at TRANSFORMER/neoforge@21.0.167/net.neoforged.neoforge.registries.GameData.lambda$freezeData$3(GameData.java:70) ~[neoforge-21.0.167-minecraft-merged.jar%23184!/:?] {re:classloading}
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?] {}
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?] {}
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?] {}
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?] {}
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?] {}
+	at TRANSFORMER/neoforge@21.0.167/net.neoforged.neoforge.registries.GameData.freezeData(GameData.java:70) ~[neoforge-21.0.167-minecraft-merged.jar%23184!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.0.167/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:55) ~[neoforge-21.0.167-minecraft-merged.jar%23184!/:?] {re:classloading}
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21
+	Minecraft Version ID: 1.21
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.3, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 139308400 bytes (132 MiB) / 521142272 bytes (497 MiB) up to 2065694720 bytes (1970 MiB)
+	CPUs: 6
+	Processor Vendor: GenuineIntel
+	Processor Name: 13th Gen Intel(R) Core(TM) i3-1305U
+	Identifier: Intel64 Family 6 Model 186 Stepping 3
+	Microarchitecture: Raptor Lake
+	Frequency (GHz): 2.50
+	Number of physical packages: 1
+	Number of physical CPUs: 5
+	Number of logical CPUs: 6
+	Graphics card #0 name: Intel(R) UHD Graphics
+	Graphics card #0 vendor: Intel Corporation
+	Graphics card #0 VRAM (MiB): 128.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 31.0.101.5186
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Virtual memory max (MiB): 18108.97
+	Virtual memory used (MiB): 15467.05
+	Swap memory total (MiB): 10232.27
+	Swap memory used (MiB): 5996.61
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 1977.80, total: 211140.00
+	Space in storage for workdir (MiB): available: 89705.77, total: 255999.00
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.4+main.d2e20e43
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher services: 
+		sponge-mixin-0.14.0+mixin.0.8.6.jar mixin PLUGINSERVICE 
+		loader-4.0.23.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.23.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.23.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		neoforge-21.0.167-minecraft-merged.jar            |Minecraft                     |minecraft                     |1.21                |Manifest: NOSIGNATURE
+		main                                              |BloodAlchemyAndRituals        |bloodalchemyandrituals        |1.0.0               |Manifest: NOSIGNATURE
+		neoforge-21.0.167-minecraft-merged.jar            |NeoForge                      |neoforge                      |21.0.167            |Manifest: NOSIGNATURE
+	Crash Report UUID: bd0039b9-2285-442b-bcd1-eb57473c86e0
+	FML: 4.0.23
+	NeoForge: 21.0.167

@@ -1,0 +1,9 @@
+{
+  "loader": "neoforge:obj",
+  "model": "bloodalchemyandrituals:block/skull_human.obj",
+  "flip-v": true,
+  "textures": {
+    "particle": "bloodalchemyandrituals:block/skull_human",
+    "texture0": "bloodalchemyandrituals:block/skull_human"
+  }
+}
